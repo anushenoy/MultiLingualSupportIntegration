@@ -13,9 +13,9 @@
 		8435E55C1D53B47A009A4F09 /* MultiLingualSupportIntegration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8435E55A1D53B47A009A4F09 /* MultiLingualSupportIntegration.xcdatamodeld */; };
 		8435E55E1D53B47A009A4F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435E55D1D53B47A009A4F09 /* Assets.xcassets */; };
 		8435E5611D53B47A009A4F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435E55F1D53B47A009A4F09 /* LaunchScreen.storyboard */; };
-		8435E5701D53B5D1009A4F09 /* ExtendLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435E56E1D53B5D1009A4F09 /* ExtendLabel.swift */; };
-		8435E5711D53B5D1009A4F09 /* MultiLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435E56F1D53B5D1009A4F09 /* MultiLanguage.swift */; };
 		8435E5731D53BB47009A4F09 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8435E5751D53BB47009A4F09 /* Localizable.strings */; };
+		8435E57C1D53CF92009A4F09 /* MultiLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435E57A1D53CF92009A4F09 /* MultiLanguage.swift */; };
+		8435E57D1D53CF92009A4F09 /* ExtendLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435E57B1D53CF92009A4F09 /* ExtendLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +31,11 @@
 		8435E56B1D53B57A009A4F09 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8435E56C1D53B58A009A4F09 /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/Main.strings; sourceTree = "<group>"; };
 		8435E56D1D53B58A009A4F09 /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		8435E56E1D53B5D1009A4F09 /* ExtendLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtendLabel.swift; path = "../../../Desktop/chicaku/Buyer/ChicakuBuyers 2/ChicakuBuyers/ExtendLabel.swift"; sourceTree = "<group>"; };
-		8435E56F1D53B5D1009A4F09 /* MultiLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiLanguage.swift; path = "../../../Desktop/chicaku/Buyer/ChicakuBuyers 2/ChicakuBuyers/MultiLanguage.swift"; sourceTree = "<group>"; };
 		8435E5771D53BB59009A4F09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8435E5781D53BB5D009A4F09 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8435E5791D53BB5E009A4F09 /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8435E57A1D53CF92009A4F09 /* MultiLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLanguage.swift; sourceTree = "<group>"; };
+		8435E57B1D53CF92009A4F09 /* ExtendLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				8435E5751D53BB47009A4F09 /* Localizable.strings */,
-				8435E56E1D53B5D1009A4F09 /* ExtendLabel.swift */,
-				8435E56F1D53B5D1009A4F09 /* MultiLanguage.swift */,
+				8435E57A1D53CF92009A4F09 /* MultiLanguage.swift */,
+				8435E57B1D53CF92009A4F09 /* ExtendLabel.swift */,
 			);
 			name = "MultiLanguage Files";
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8435E5701D53B5D1009A4F09 /* ExtendLabel.swift in Sources */,
-				8435E5711D53B5D1009A4F09 /* MultiLanguage.swift in Sources */,
+				8435E57C1D53CF92009A4F09 /* MultiLanguage.swift in Sources */,
 				8435E5561D53B47A009A4F09 /* ViewController.swift in Sources */,
+				8435E57D1D53CF92009A4F09 /* ExtendLabel.swift in Sources */,
 				8435E5541D53B47A009A4F09 /* AppDelegate.swift in Sources */,
 				8435E55C1D53B47A009A4F09 /* MultiLingualSupportIntegration.xcdatamodeld in Sources */,
 			);
@@ -334,6 +334,7 @@
 				8435E5671D53B47A009A4F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
