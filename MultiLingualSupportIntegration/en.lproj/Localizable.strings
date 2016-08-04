@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  MultiLingualSupportIntegration
+
+  Created by Admin on 04/08/16.
+  Copyright © 2016 Anush. All rights reserved.
+*/
+"english" = "English";
+"hindi" = "Hindi";
+"marathi" = "Marathi";
+"selectLanguage" = "Select Language";
+"lable" = "I am a lable";
+"button" = "Myself useless button";
+"textfield" = "Random placeholder";
+"textview" = "Filling TextView with random Stuff";
