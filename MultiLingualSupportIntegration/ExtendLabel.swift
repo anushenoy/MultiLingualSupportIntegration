@@ -61,6 +61,23 @@ extension UITextField
         
     }
 }
+@IBDesignable
+extension UITextView
+{
+    //! Add Key for MultiLanguage text
+    @IBInspectable var multiLanguageKey:String?{
+        get{
+            return "";
+        }
+        set{
+            guard (MultiLanguage.sharedInstance.languageBundle != nil) else{
+                return ;
+            }
+            self.text = MultiLanguage.sharedInstance.languageBundle!.localizedStringForKey(newValue!, value: nil, table: nil);
+        }
+        
+    }
+}
 
 extension NSNumber
 {
